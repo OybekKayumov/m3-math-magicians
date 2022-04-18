@@ -4,7 +4,7 @@
 
 - Make simple calculations.
 - Read a random math-related quote.
-- 
+
 By building this application, we will learn how to use React.
 
 ## Available Scripts
