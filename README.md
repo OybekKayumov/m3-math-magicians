@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Math Magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote.
+- 
+By building this application, we will learn how to use React.
 
 ## Available Scripts
 
