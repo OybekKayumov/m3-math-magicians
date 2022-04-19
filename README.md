@@ -13,6 +13,7 @@
 - React
 
 ## Live Demo
+
 live link:
 
 ## Getting Started
@@ -36,7 +37,6 @@ $ npm start
 Build the app for production
 
 $ npm run build
-
 
 ## Author
 
