@@ -1,6 +1,6 @@
 .box-container {
-  width: 32vw;
-  height: 62vh;
+  width: 100%;
+  height: 60vh;
   background-color: #808080;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -8,13 +8,13 @@
 }
 
 .result-screen {
-  /* grid-column: 1 / -1; */
   grid-column: 1 / -1;
   color: #fff;
   padding: 2rem;
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
+  background-size: cover;
 }
 
 .btn {
