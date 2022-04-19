@@ -1,0 +1,53 @@
+.box-container {
+  width: 32vw;
+  height: 62vh;
+  background-color: #808080;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.result-screen {
+  grid-column: 1 / -1;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.btn {
+  all: unset;
+  display: grid;
+  place-content: center;
+  background-color: #ccc;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  padding: 2rem 4rem;
+  font-size: 1.4rem;
+}
+
+.btn:hover {
+  background-color: #808080;
+  color: #fff;
+}
+
+.btn:active {
+  background-color: #000;
+}
+
+.hover-btn {
+  background-color: #f3914e;
+}
+
+.hover-btn:hover {
+  background-color: #ff4311;
+}
+
+.hover-btn:active {
+  background-color: #ec4353;
+}
+
+.screen-num {
+  grid-column: 1 / span 2;
+}
