@@ -37,6 +37,30 @@ $ npm start
 Build the app for production
 
 $ npm run build
+=======
+live link:
+
+## Getting Started
+
+Clone project, run in your terminal:
+
+$ git clone https://github.com/OybekKayumov/m3-math-magicians.git
+
+Open the cloned project in your code editor and run:
+
+$ cd m3-math-magicians
+
+Install npm packages, run:
+
+$ npm install
+
+Then run the server:
+
+$ npm start
+
+Build the app for production
+
+$ npm run build
 
 ## Author
 
