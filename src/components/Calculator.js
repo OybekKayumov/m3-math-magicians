@@ -1,56 +1,52 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
+const Calculator = () => {
+  const stateObject = {
+    total: 0,
+    next: null,
+    operation: null,
+  };
 
-    this.handleClick = this.handleClick.bind(this);
-  }
+  const [properties, setProperties] = useState(stateObject);
 
-  handleClick(btn) {
+  const handleClick = (btn) => {
     const btnFunc = btn.target.textContent;
-    this.setState((event) => calculate(event, btnFunc));
-  }
+    const newProps = { ...properties };
+    setProperties(calculate(newProps, btnFunc));
+  };
 
-  render() {
-    const { total, next, operation } = this.state;
-
-    return (
+  return (
+    <>
       <div className="box-container">
         <div className="result-screen">
-          { total}
-          { operation}
-          { next }
+          { properties.total}
+          { properties.operation}
+          { properties.next }
         </div>
-        <button onClick={this.handleClick} type="button" className="btn">AC</button>
-        <button onClick={this.handleClick} type="button" className="btn">+/-</button>
-        <button onClick={this.handleClick} type="button" className="btn">%</button>
-        <button onClick={this.handleClick} type="button" className="btn hover-btn">÷</button>
-        <button onClick={this.handleClick} type="button" className="btn">7</button>
-        <button onClick={this.handleClick} type="button" className="btn">8</button>
-        <button onClick={this.handleClick} type="button" className="btn">9</button>
-        <button onClick={this.handleClick} type="button" className="btn hover-btn">x</button>
-        <button onClick={this.handleClick} type="button" className="btn">4</button>
-        <button onClick={this.handleClick} type="button" className="btn">5</button>
-        <button onClick={this.handleClick} type="button" className="btn">6</button>
-        <button onClick={this.handleClick} type="button" className="btn hover-btn">-</button>
-        <button onClick={this.handleClick} type="button" className="btn">1</button>
-        <button onClick={this.handleClick} type="button" className="btn">2</button>
-        <button onClick={this.handleClick} type="button" className="btn">3</button>
-        <button onClick={this.handleClick} type="button" className="btn hover-btn">+</button>
-        <button onClick={this.handleClick} type="button" className="btn screen-num">0</button>
-        <button onClick={this.handleClick} type="button" className="btn">.</button>
-        <button onClick={this.handleClick} type="button" className="btn hover-btn">=</button>
+        <button onClick={handleClick} type="button" className="btn">AC</button>
+        <button onClick={handleClick} type="button" className="btn">+/-</button>
+        <button onClick={handleClick} type="button" className="btn">%</button>
+        <button onClick={handleClick} type="button" className="btn hover-btn">÷</button>
+        <button onClick={handleClick} type="button" className="btn">7</button>
+        <button onClick={handleClick} type="button" className="btn">8</button>
+        <button onClick={handleClick} type="button" className="btn">9</button>
+        <button onClick={handleClick} type="button" className="btn hover-btn">x</button>
+        <button onClick={handleClick} type="button" className="btn">4</button>
+        <button onClick={handleClick} type="button" className="btn">5</button>
+        <button onClick={handleClick} type="button" className="btn">6</button>
+        <button onClick={handleClick} type="button" className="btn hover-btn">-</button>
+        <button onClick={handleClick} type="button" className="btn">1</button>
+        <button onClick={handleClick} type="button" className="btn">2</button>
+        <button onClick={handleClick} type="button" className="btn">3</button>
+        <button onClick={handleClick} type="button" className="btn hover-btn">+</button>
+        <button onClick={handleClick} type="button" className="btn screen-num">0</button>
+        <button onClick={handleClick} type="button" className="btn">.</button>
+        <button onClick={handleClick} type="button" className="btn hover-btn">=</button>
       </div>
-    );
-  }
-}
+    </>
+  );
+};
 
 export default Calculator;
