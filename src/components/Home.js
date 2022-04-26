@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
     <section className="container-home">
-      <h1>Welcome To Our page!</h1>
+      <h1>Welcome To Our Page!</h1>
       <p>{para}</p>
     </section>
   );

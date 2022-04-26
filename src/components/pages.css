@@ -9,10 +9,11 @@
 }
 
 .container-home h1 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #333;
-  background-color: #deb992;
+  color: #f1b24a;
+  background-color: #4d774e;
+  border: 1px solid #9dc88d;
   border-radius: 8px;
   padding: 1rem 4rem;
   margin-bottom: 2rem;
@@ -20,39 +21,41 @@
 
 .container-home p {
   width: 80%;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: #333;
-  background-color: #deb992;
-  border: 2px solid #efa63f;
+  line-height: 4rem;
+  letter-spacing: 0.9px;
+  color: #f1b24a;
+  background-color: #4d774e;
+  border: 1px solid #9dc88d;
   border-radius: 8px;
   padding: 1rem 4rem;
   margin-bottom: 2rem;
 }
 
 nav {
-  padding: 3rem;
-  color: black;
-  background-color: #f7f4e9;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
   font-size: 1.6rem;
   font-weight: bold;
+  color: black;
+  background-color: #f7f4e9;
+  padding: 3rem;
 }
 
 ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
 ul li a {
   text-decoration: none;
-  color: #333;
+  color: #8da242;
   outline: none;
 }
 
@@ -68,6 +71,7 @@ ul li:not(:first-child)::before {
   color: #8da242 !important;
   text-align: center;
   display: flex;
+  font-size: 2.2rem;
 }
 
 .active {
@@ -89,10 +93,10 @@ ul li:not(:first-child)::before {
   flex-direction: column;
   align-items: center;
   font-size: 1.8rem;
-  color: #333;
+  color: #f1b24a;
   width: 80%;
-  background-color: #deb992;
-  border: 1px solid #efa63f;
+  background-color: #4d774e;
+  border: 1px solid #9dc88d;
   border-radius: 8px;
   margin-top: 4rem;
   padding: 2rem;
@@ -103,5 +107,6 @@ ul li:not(:first-child)::before {
   font-style: italic;
   font-size: 2rem;
   font-weight: bold;
+  line-height: 4rem;
   margin-bottom: 2rem;
 }
