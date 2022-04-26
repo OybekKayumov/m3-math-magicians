@@ -9,7 +9,7 @@ function Navbar() {
           className="nav-logo"
           to="/math-magicians"
         >
-          Math Nagicians
+          Math Magicians
         </NavLink>
       </div>
       <ul>

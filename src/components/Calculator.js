@@ -18,9 +18,10 @@ const Calculator = () => {
   };
 
   return (
-    <>
+    <div className="main-container">
+      <p>Let&apos;s Do Some Math!</p>
       <div className="box-container">
-        <div className="result-screen">
+        <div className="screen">
           { properties.total}
           { properties.operation}
           { properties.next }
@@ -45,7 +46,7 @@ const Calculator = () => {
         <button onClick={handleClick} type="button" className="btn">.</button>
         <button onClick={handleClick} type="button" className="btn hover-btn">=</button>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ const Quote = () => {
   const quoteAuthor = '- Steve Jobs';
 
   return (
-    <div className="quote-container">
+    <div className="container-quote">
       <p>{quoteText}</p>
       <span>{quoteAuthor}</span>
     </div>

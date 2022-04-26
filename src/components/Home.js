@@ -1,10 +1,10 @@
 import './pages.css';
 
 const Home = () => {
-  const para = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo labore et dolore magna aliqua.';
+  const para = 'Description: Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote. By building this application, you will learn how to use React. How to build the "Math magicians" website.   The core functionality is a calculator. At the very beginning your website will contain only the simple UI presented below, but it will be able to perform all math operations.';
 
   return (
-    <section className="home-container">
+    <section className="container-home">
       <h1>Welcome To Our page!</h1>
       <p>{para}</p>
     </section>
