@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly when there are no items 1`] = `
+<div
+  className="container-quote"
+>
+  <p>
+    "Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking."
+  </p>
+  <span>
+    - Steve Jobs
+  </span>
+</div>
+`;
