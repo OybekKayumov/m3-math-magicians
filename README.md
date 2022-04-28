@@ -1,5 +1,8 @@
 # Math Magicians
 
+![image](https://user-images.githubusercontent.com/85465559/165719702-09e87557-3670-4131-bb5c-3ac58ec540f1.png)
+
+
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 - Make simple calculations.
@@ -15,7 +18,7 @@
 
 ## Live Demo
 
-![live link netlify]: (https://math-magicians-oybekkayumov.netlify.app/)
+![live link netlify](https://math-magicians-oybekkayumov.netlify.app/)
 
 ## Getting Started
 
