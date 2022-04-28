@@ -11,10 +11,11 @@
 - CSS
 - JavaScript
 - React
+- Netlify
 
 ## Live Demo
 
-live link:
+[live link netlify]: (https://math-magicians-oybekkayumov.netlify.app/)
 
 ## Getting Started
 
