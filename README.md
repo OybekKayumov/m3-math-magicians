@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-![live link netlify](https://math-magicians-oybekkayumov.netlify.app/)
+[live link netlify](https://math-magicians-oybekkayumov.netlify.app/)
 
 ## Getting Started
 
