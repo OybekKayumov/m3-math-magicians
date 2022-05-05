@@ -15,10 +15,12 @@
 - JavaScript
 - React
 - Netlify
+- Heroku
 
 ## Live Demo
 
 [live link netlify](https://math-magicians-oybekkayumov.netlify.app/)
+[live link heroku](https://m3-math-magicians-heroku.herokuapp.com/Calculator)
 
 ## Getting Started
 
